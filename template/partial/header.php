@@ -11,4 +11,5 @@
   <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
   <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
   <title><?php echo 'Cuba - Premium Admin Template'; ?></title>
-<?php include('style.php'); ?>
+  <?php include('style.php'); ?>
+  <link rel="stylesheet" href="assets/css/theme-fix.css">

@@ -1,0 +1,1883 @@
+/* Estilos personalizados para limpiar fondos */
+
+/* Reset general de fondos */
+* {
+  background-image: none !important;
+  background-color: #ffffff !important;
+  box-shadow: none !important;
+}
+
+/* Fondo blanco para todos los widgets */
+.card,
+.card-body,
+.widget-1,
+.widget-1 .card-body,
+.profile-box,
+.profile-box .card-body,
+.overall-card,
+.papernote-wrap,
+.appointment,
+.appointment .card,
+.purchase-card,
+.widget-hover,
+.widget-content,
+.widget-round,
+.widget-round .bg-round,
+.widget-round .half-circle,
+.clockbox,
+.clockbox svg,
+.clockbox .circle,
+.clockbox .hour-marks,
+.clockbox .sizing-box {
+  background-color: #ffffff !important;
+  background-image: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+/* Asegurar que los textos mantengan su estilo */
+h1, h2, h3, h4, h5, h6, p, span, div, a {
+  color: inherit !important;
+  text-shadow: none !important;
+}
+
+/* Mantener visibilidad de los textos */
+.widget-content h4,
+.widget-content .f-light,
+.greeting-user h4,
+.greeting-user p {
+  color: #2c323f !important;
+}
+
+/* Fondo blanco para el cuerpo de la página */
+.page-body,
+.page-body-wrapper,
+.page-body .container-fluid,
+.widget-grid,
+.row,
+body,
+html {
+  background-color: #ffffff !important;
+  background-image: none !important;
+}
+
+/* Eliminar cualquier borde o sombra */
+.card,
+.card-body,
+.widget-1,
+.widget-round,
+.bg-round {
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+
+/* Mantener el espaciado */
+.card-body {
+  padding: 1rem !important;
+}
+
+/* Mantener los íconos visibles */
+.svg-fill,
+.widget-round svg {
+  fill: #2c323f !important;
+  stroke: #2c323f !important;
+  background: transparent !important;
+}
+
+/* Asegurar que los textos sean visibles */
+.card h4,
+.card h5,
+.card h6,
+.card p,
+.card span,
+.widget-1 h4,
+.widget-1 h5,
+.widget-1 h6,
+.widget-1 p,
+.widget-1 span {
+  color: #2c323f !important;
+}
+
+/* Estilos para los encabezados de tarjetas */
+.card-header {
+  background-color: #f8f9fa !important;
+  border-bottom: 1px solid #eee !important;
+  padding: 15px 20px !important;
+}
+
+/* Estilos para el modo oscuro - Mantener fondo blanco */
+body.dark-only .card,
+body.dark-only .card-body,
+body.dark-only .widget-1,
+body.dark-only .profile-box,
+body.dark-only .overall-card,
+body.dark-only .papernote-wrap,
+body.dark-only .appointment,
+body.dark-only .purchase-card,
+body.dark-only .widget-content,
+body.dark-only .widget-round,
+body.dark-only .bg-round,
+body.dark-only .clockbox,
+body.dark-only .clockbox svg,
+body.dark-only .clockbox .circle,
+body.dark-only .clockbox .hour-marks,
+body.dark-only .clockbox .sizing-box {
+  background-color: #ffffff !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+/* Asegurar que los textos sean visibles en modo oscuro */
+body.dark-only h1,
+body.dark-only h2,
+body.dark-only h3,
+body.dark-only h4,
+body.dark-only h5,
+body.dark-only h6,
+body.dark-only p,
+body.dark-only span,
+body.dark-only div,
+body.dark-only a,
+body.dark-only .widget-content h4,
+body.dark-only .widget-content .f-light,
+body.dark-only .greeting-user h4,
+body.dark-only .greeting-user p {
+  color: #2c323f !important;
+}
+
+/* Mantener los íconos visibles en modo oscuro */
+body.dark-only .svg-fill,
+body.dark-only .widget-round svg {
+  fill: #2c323f !important;
+  stroke: #2c323f !important;
+}
+
+body.dark-only .card h4,
+body.dark-only .card h5,
+body.dark-only .card h6,
+body.dark-only .card p,
+body.dark-only .card span,
+body.dark-only .widget-1 h4,
+body.dark-only .widget-1 h5,
+body.dark-only .widget-1 h6,
+body.dark-only .widget-1 p,
+body.dark-only .widget-1 span {
+  color: #f8f9fa !important;
+}
+
+body.dark-only .card-header {
+  background-color: #1e222d !important;
+  border-bottom: 1px solid #374558 !important;
+}
+
+/* Fondo blanco para el cuerpo de las tarjetas */
+.card-body {
+  background-color: #ffffff !important;
+  padding: 1.5rem !important;
+}
+
+/* Estilos específicos para las tarjetas de compras */
+.purchase-card {
+  background-color: transparent !important;
+  margin-top: 0 !important;
+  box-shadow: none !important;
+}
+
+.purchase-card .card-body {
+  padding: 1.5rem !important;
+  background-color: #ffffff !important;
+  border-radius: 8px !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05) !important;
+}
+
+/* Estilos para los widgets pequeños */
+.widget-1 {
+  background-color: #ffffff !important;
+  background-image: none !important;
+  border-radius: 8px !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05) !important;
+}
+
+/* Eliminar fondos grises de los widgets */
+.widget-1 .card-body,
+.widget-1 .widget-content,
+.widget-1 .widget-round,
+.widget-1 .bg-round {
+  background-color: transparent !important;
+}
+
+/* Asegurar que los textos sean visibles */
+.widget-1 h4,
+.widget-1 h6,
+.widget-1 p {
+  color: #2c323f !important;
+}
+
+/* Estilos para el modo oscuro */
+body.dark-only .widget-1,
+body.dark-only .purchase-card .card-body {
+  background-color: #2c323f !important;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2) !important;
+}
+
+body.dark-only .widget-1 h4,
+body.dark-only .widget-1 h6,
+body.dark-only .widget-1 p,
+body.dark-only .purchase-card h4,
+body.dark-only .purchase-card h6,
+body.dark-only .purchase-card p {
+  color: #f8f9fa !important;
+}
+
+/* Fondo blanco para los encabezados de las tarjetas */
+.card-header {
+  background-color: #ffffff !important;
+  border-bottom: 1px solid #f1f1f1 !important;
+}
+
+/* Fondo blanco para los widgets del dashboard */
+.dashboard-widget {
+  background-color: #ffffff !important;
+  border: 1px solid #f1f1f1 !important;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03) !important;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+.dashboard-widget:hover {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1) !important;
+  transform: translateY(-2px);
+}
+
+/* Fondo blanco para los contenedores de estadísticas */
+.stats-widget, 
+.earning-widget, 
+.sales-widget, 
+.chart-widget {
+  background-color: #ffffff !important;
+  border: 1px solid #f1f1f1 !important;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+/* Fondo blanco para los contenedores de gráficos */
+.chart-container {
+  background-color: #ffffff !important;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03) !important;
+}
+
+/* Asegurar que los textos sean legibles */
+.card-title, 
+.stats-widget h5, 
+.earning-widget h5, 
+.sales-widget h5 {
+  color: #2c323f !important;
+  font-weight: 600;
+}
+
+/* Estilo para los números grandes en los widgets */
+.stats-number {
+  font-size: 24px;
+  font-weight: 700;
+  color: #2c323f !important;
+  margin: 10px 0;
+}
+
+/* Estilo para los íconos en los widgets */
+.widget-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+/* Colores de fondo para los íconos */
+.icon-primary {
+  background-color: rgba(115, 102, 255, 0.1);
+  color: #7366FF;
+}
+
+.icon-success {
+  background-color: rgba(84, 186, 74, 0.1);
+  color: #54BA4A;
+}
+
+.icon-warning {
+  background-color: rgba(255, 170, 5, 0.1);
+  color: #FFAA05;
+}
+
+.icon-danger {
+  background-color: rgba(252, 68, 56, 0.1);
+  color: #FC4438;
+}
+
+/* Ajustes para los contenedores de gráficos */
+.chart-widget-top {
+  padding: 15px;
+  background-color: #ffffff !important;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+/* Asegurar que las tablas dentro de los widgets tengan fondo blanco */
+.table {
+  background-color: #ffffff !important;
+}
+
+/* Estilo para los botones en los widgets */
+.widget-btn {
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+}
+
+/* Efecto hover para los botones */
+.widget-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Ajustes para los tooltips */
+.tooltip-inner {
+  background-color: #2c323f;
+  font-size: 12px;
+  padding: 5px 10px;
+}
+
+.bs-tooltip-auto[x-placement^=top] .arrow::before, 
+.bs-tooltip-top .arrow::before {
+  border-top-color: #2c323f;
+}
+
+/* Ajustes para los dropdowns en los widgets */
+.dropdown-menu {
+  border: 1px solid #f1f1f1;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 10px 0;
+}
+
+.dropdown-item {
+  padding: 8px 20px;
+  color: #2c323f;
+  font-size: 13px;
+  transition: all 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #f8f9fa;
+  color: #7366FF;
+}
+
+/* Ajustes para los badges en los widgets */
+.badge {
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Ajustes para los tabs en los widgets */
+.nav-tabs {
+  border-bottom: 1px solid #f1f1f1;
+  margin-bottom: 15px;
+}
+
+.nav-tabs .nav-link {
+  border: none;
+  color: #6c757d;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 8px 8px 0 0;
+  transition: all 0.3s ease;
+}
+
+.nav-tabs .nav-link.active {
+  color: #7366FF;
+  background-color: rgba(115, 102, 255, 0.1);
+  border: none;
+}
+
+/* Ajustes para los formularios en los widgets */
+.form-control {
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  padding: 10px 15px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #7366FF;
+  box-shadow: 0 0 0 0.2rem rgba(115, 102, 255, 0.25);
+}
+
+/* Ajustes para los checkboxes y radios en los widgets */
+.custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #7366FF;
+  border-color: #7366FF;
+}
+
+/* Ajustes para los sliders en los widgets */
+.range-slider {
+  margin: 15px 0;
+}
+
+/* Ajustes para los tooltips en los sliders */
+.tooltip {
+  font-size: 12px;
+  pointer-events: none;
+}
+
+/* Ajustes para los popovers en los widgets */
+.popover {
+  border: 1px solid #f1f1f1;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.popover-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #f1f1f1;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px 15px;
+  border-radius: 8px 8px 0 0;
+}
+
+.popover-body {
+  padding: 15px;
+  font-size: 13px;
+  color: #6c757d;
+}
+
+/* Ajustes para los modales en los widgets */
+.modal-content {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.modal-header {
+  border-bottom: 1px solid #f1f1f1;
+  padding: 15px 20px;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.modal-footer {
+  border-top: 1px solid #f1f1f1;
+  padding: 15px 20px;
+}
+
+/* Ajustes para los tooltips en los botones */
+.btn-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.btn-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 120px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+}
+
+.btn-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Ajustes para los tooltips en los iconos */
+.icon-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.icon-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 150px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+}
+
+.icon-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Ajustes para los tooltips en los enlaces */
+.link-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  color: #7366FF;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.link-tooltip:hover {
+  color: #5a4dff;
+  text-decoration: underline;
+}
+
+.link-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 180px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -90px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+}
+
+.link-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Ajustes para los tooltips en las imágenes */
+.img-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.img-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -100px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+}
+
+.img-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Ajustes para los tooltips en las tablas */
+.table-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  border-bottom: 1px dotted #7366FF;
+  color: #7366FF;
+}
+
+.table-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 220px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -110px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+}
+
+.table-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Ajustes para los tooltips en los formularios */
+.form-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 5px;
+  color: #6c757d;
+  font-size: 14px;
+}
+
+.form-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -100px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.form-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Ajustes para los tooltips en los botones de acción */
+.action-btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa;
+  color: #6c757d;
+  border: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  margin: 0 2px;
+}
+
+.action-btn:hover {
+  background-color: #e9ecef;
+  color: #2c323f;
+}
+
+.action-btn i {
+  font-size: 14px;
+}
+
+/* Ajustes para los tooltips en los botones de acción */
+.action-tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.action-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 120px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+}
+
+.action-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Ajustes para los tooltips en los íconos de estado */
+.status-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.status-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 150px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+}
+
+.status-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Ajustes para los tooltips en los badges */
+.badge-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.badge-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 180px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -90px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+}
+
+.badge-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Ajustes para los tooltips en los avatares */
+.avatar-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.avatar-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -100px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+}
+
+.avatar-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Ajustes para los tooltips en los enlaces de navegación */
+.nav-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.nav-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 150px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+}
+
+.nav-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Ajustes para los tooltips en los elementos de lista */
+.list-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.list-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -100px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.list-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Ajustes para los tooltips en los elementos de menú */
+.menu-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.menu-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 180px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -90px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.menu-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Ajustes para los tooltips en los elementos de formulario */
+.form-group-tooltip {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.form-group-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: calc(100% + 10px);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.form-group-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Ajustes para los tooltips en los elementos de tabla */
+.table-td-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.table-td-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 250px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -125px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+  line-height: 1.5;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+.table-td-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Ajustes para los tooltips en los elementos de lista desplegable */
+.dropdown-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dropdown-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -100px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.dropdown-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Ajustes para los tooltips en los elementos de pestañas */
+.tab-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tab-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 180px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -90px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.tab-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Ajustes para los tooltips en los elementos de acordeón */
+.accordion-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.accordion-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -100px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.accordion-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Ajustes para los tooltips en los elementos de pestañas verticales */
+.vertical-tab-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.vertical-tab-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  right: 125%;
+  transform: translateY(-50%);
+  margin-right: 10px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.vertical-tab-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Ajustes para los tooltips en los elementos de barra lateral */
+.sidebar-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.sidebar-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: calc(100% + 15px);
+  transform: translateY(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+  line-height: 1.5;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Ajustes para los tooltips en los elementos de menú desplegable */
+.dropdown-menu-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  width: 100%;
+}
+
+.dropdown-menu-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: calc(100% + 15px);
+  transform: translateY(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+  line-height: 1.5;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Ajustes para los tooltips en los elementos de menú de navegación */
+.navbar-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.navbar-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+  line-height: 1.5;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Ajustes para los tooltips en los elementos de barra de navegación */
+.nav-toolbar-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.nav-toolbar-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+  line-height: 1.5;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.nav-toolbar-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Ajustes para los tooltips en los elementos de menú de pestañas */
+.nav-pills-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.nav-pills-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+  line-height: 1.5;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.nav-pills-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Ajustes para los tooltips en los elementos de menú de pestañas verticales */
+.nav-pills-vertical-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.nav-pills-vertical-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  right: 125%;
+  transform: translateY(-50%);
+  margin-right: 10px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+  line-height: 1.5;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.nav-pills-vertical-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Ajustes para los tooltips en los elementos de menú de pestañas con iconos */
+.nav-pills-icon-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.nav-pills-icon-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+  line-height: 1.5;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.nav-pills-icon-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Ajustes para los tooltips en los elementos de menú de pestañas con badges */
+.nav-pills-badge-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.nav-pills-badge-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+  line-height: 1.5;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.nav-pills-badge-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Ajustes para los tooltips en los elementos de menú de pestañas con iconos y texto */
+.nav-pills-icon-text-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.nav-pills-icon-text-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+  line-height: 1.5;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.nav-pills-icon-text-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Ajustes para los tooltips en los elementos de menú de pestañas con imágenes */
+.nav-pills-img-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.nav-pills-img-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+  line-height: 1.5;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.nav-pills-img-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Ajustes para los tooltips en los elementos de menú de pestañas con avatares */
+.nav-pills-avatar-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.nav-pills-avatar-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+  line-height: 1.5;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.nav-pills-avatar-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Ajustes para los tooltips en los elementos de menú de pestañas con imágenes circulares */
+.nav-pills-img-circle-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.nav-pills-img-circle-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+  line-height: 1.5;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.nav-pills-img-circle-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Ajustes para los tooltips en los elementos de menú de pestañas con imágenes redondeadas */
+.nav-pills-img-rounded-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.nav-pills-img-rounded-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+  line-height: 1.5;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.nav-pills-img-rounded-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Ajustes para los tooltips en los elementos de menú de pestañas con miniaturas */
+.nav-pills-thumbnail-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.nav-pills-thumbnail-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+  line-height: 1.5;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.nav-pills-thumbnail-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Ajustes para los tooltips en los elementos de menú de pestañas con miniaturas circulares */
+.nav-pills-thumbnail-circle-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.nav-pills-thumbnail-circle-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+  line-height: 1.5;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.nav-pills-thumbnail-circle-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Ajustes para los tooltips en los elementos de menú de pestañas con miniaturas redondeadas */
+.nav-pills-thumbnail-rounded-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.nav-pills-thumbnail-rounded-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+  line-height: 1.5;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.nav-pills-thumbnail-rounded-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Ajustes para los tooltips en los elementos de menú de pestañas con miniaturas cuadradas */
+.nav-pills-thumbnail-square-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.nav-pills-thumbnail-square-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+  line-height: 1.5;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.nav-pills-thumbnail-square-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Ajustes para los tooltips en los elementos de menú de pestañas con miniaturas redondeadas */
+.nav-pills-thumbnail-rounded-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.nav-pills-thumbnail-rounded-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+  line-height: 1.5;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.nav-pills-thumbnail-rounded-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Ajustes para los tooltips en los elementos de menú de pestañas con miniaturas circulares */
+.nav-pills-thumbnail-circle-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.nav-pills-thumbnail-circle-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+  line-height: 1.5;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.nav-pills-thumbnail-circle-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Ajustes para los tooltips en los elementos de menú de pestañas con miniaturas cuadradas */
+.nav-pills-thumbnail-square-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.nav-pills-thumbnail-square-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+  line-height: 1.5;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.nav-pills-thumbnail-square-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Ajustes para los tooltips en los elementos de menú de pestañas con imágenes de fondo */
+.nav-pills-bg-img-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.nav-pills-bg-img-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+  line-height: 1.5;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.nav-pills-bg-img-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Ajustes para los tooltips en los elementos de menú de pestañas con gradientes */
+.nav-pills-gradient-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.nav-pills-gradient-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+  line-height: 1.5;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.nav-pills-gradient-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Ajustes para los tooltips en los elementos de menú de pestañas con colores */
+.nav-pills-color-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.nav-pills-color-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+  line-height: 1.5;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.nav-pills-color-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Ajustes para los tooltips en los elementos de menú de pestañas con colores de fondo */
+.nav-pills-bg-color-tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.nav-pills-bg-color-tooltip .tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: #2c323f;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+  line-height: 1.5;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.nav-pills-bg-color-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}

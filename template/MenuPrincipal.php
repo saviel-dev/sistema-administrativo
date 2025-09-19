@@ -18,14 +18,14 @@ include('partial/loader.php');
       <div class="container-fluid">
         <div class="row widget-grid">
           <div class="col-xxl-4 col-sm-6 box-col-6">
-            <div class="card profile-box">
+            <div class="card profile-box" style="background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.03); transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.05)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 1px 3px rgba(0,0,0,0.03)';">
               <div class="card-body">
                 <div class="media">
                   <div class="media-body">
                     <div class="greeting-user">
-                      <h4 class="f-w-600">Welcome to cuba</h4>
-                      <p>Here whats happing in your account today</p>
-                      <div class="whatsnew-btn"><a class="btn btn-outline-white">Whats New !</a></div>
+                      <h4 class="f-w-600">Bienvenido a Nazca</h4>
+                      <p>Aquí está lo que sucede en tu cuenta hoy</p>
+                      <div class="whatsnew-btn"><a class="btn btn-outline-white">¡Novedades!</a></div>
                     </div>
                   </div>
                   <div>
@@ -60,11 +60,11 @@ include('partial/loader.php');
           <div class="col-xxl-auto col-xl-3 col-sm-6 box-col-6">
             <div class="row">
               <div class="col-xl-12">
-                <div class="card widget-1">
+                <div class="card widget-1" style="background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%); border-left: 4px solid #3b82f6; border-radius: 12px; box-shadow: inset 0 1px 3px rgba(255,255,255,0.8), 0 2px 8px rgba(0,0,0,0.03); transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); position: relative; overflow: hidden; margin-bottom: 15px;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='inset 0 1px 3px rgba(255,255,255,0.8), 0 8px 20px rgba(0,0,0,0.08)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='inset 0 1px 3px rgba(255,255,255,0.8), 0 2px 8px rgba(0,0,0,0.03)';">
                   <div class="card-body">
                     <div class="widget-content">
-                      <div class="widget-round secondary">
-                        <div class="bg-round">
+                      <div class="widget-round secondary" style="background: transparent; box-shadow: none;">
+                        <div class="bg-round" style="background: transparent;">
                           <svg class="svg-fill">
                             <use href="assets/svg/icon-sprite.svg#cart"> </use>
                           </svg>
@@ -74,18 +74,18 @@ include('partial/loader.php');
                         </div>
                       </div>
                       <div>
-                        <h4>10,000</h4><span class="f-light">Purchase</span>
+                        <h4>10,000</h4><span class="f-light">Compras</span>
                       </div>
                     </div>
                     <div class="font-secondary f-w-500"><i class="icon-arrow-up icon-rotate me-1"></i><span>+50%</span></div>
                   </div>
                 </div>
                 <div class="col-xl-12">
-                  <div class="card widget-1">
+                  <div class="card widget-1" style="background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%); border-left: 4px solid #3b82f6; border-radius: 12px; box-shadow: inset 0 1px 3px rgba(255,255,255,0.8), 0 2px 8px rgba(0,0,0,0.03); transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); position: relative; overflow: hidden; margin-bottom: 15px;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='inset 0 1px 3px rgba(255,255,255,0.8), 0 8px 20px rgba(0,0,0,0.08)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='inset 0 1px 3px rgba(255,255,255,0.8), 0 2px 8px rgba(0,0,0,0.03)';">
                     <div class="card-body">
                       <div class="widget-content">
-                        <div class="widget-round primary">
-                          <div class="bg-round">
+                        <div class="widget-round primary" style="background: transparent; box-shadow: none;">
+                        <div class="bg-round" style="background: transparent;">
                             <svg class="svg-fill">
                               <use href="assets/svg/icon-sprite.svg#tag"> </use>
                             </svg>
@@ -95,7 +95,7 @@ include('partial/loader.php');
                           </div>
                         </div>
                         <div>
-                          <h4>4,200</h4><span class="f-light">Sales</span>
+                          <h4>4,200</h4><span class="f-light">Ventas</span>
                         </div>
                       </div>
                       <div class="font-primary f-w-500"><i class="icon-arrow-up icon-rotate me-1"></i><span>+70%</span></div>
@@ -108,11 +108,11 @@ include('partial/loader.php');
           <div class="col-xxl-auto col-xl-3 col-sm-6 box-col-6">
             <div class="row">
               <div class="col-xl-12">
-                <div class="card widget-1">
+                <div class="card widget-1" style="background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%); border-left: 4px solid #3b82f6; border-radius: 12px; box-shadow: inset 0 1px 3px rgba(255,255,255,0.8), 0 2px 8px rgba(0,0,0,0.03); transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); position: relative; overflow: hidden; margin-bottom: 15px;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='inset 0 1px 3px rgba(255,255,255,0.8), 0 8px 20px rgba(0,0,0,0.08)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='inset 0 1px 3px rgba(255,255,255,0.8), 0 2px 8px rgba(0,0,0,0.03)';">
                   <div class="card-body">
                     <div class="widget-content">
-                      <div class="widget-round warning">
-                        <div class="bg-round">
+                      <div class="widget-round warning" style="background: transparent; box-shadow: none;">
+                        <div class="bg-round" style="background: transparent;">
                           <svg class="svg-fill">
                             <use href="assets/svg/icon-sprite.svg#return-box"> </use>
                           </svg>
@@ -122,18 +122,18 @@ include('partial/loader.php');
                         </div>
                       </div>
                       <div>
-                        <h4>7000</h4><span class="f-light">Sales return</span>
+                        <h4>7,000</h4><span class="f-light">Devoluciones</span>
                       </div>
                     </div>
                     <div class="font-warning f-w-500"><i class="icon-arrow-down icon-rotate me-1"></i><span>-20%</span></div>
                   </div>
                 </div>
                 <div class="col-xl-12">
-                  <div class="card widget-1">
+                  <div class="card widget-1" style="background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%); border-left: 4px solid #3b82f6; border-radius: 12px; box-shadow: inset 0 1px 3px rgba(255,255,255,0.8), 0 2px 8px rgba(0,0,0,0.03); transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); position: relative; overflow: hidden; margin-bottom: 15px;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='inset 0 1px 3px rgba(255,255,255,0.8), 0 8px 20px rgba(0,0,0,0.08)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='inset 0 1px 3px rgba(255,255,255,0.8), 0 2px 8px rgba(0,0,0,0.03)';">
                     <div class="card-body">
                       <div class="widget-content">
-                        <div class="widget-round success">
-                          <div class="bg-round">
+                        <div class="widget-round success" style="background: transparent; box-shadow: none;">
+                        <div class="bg-round" style="background: transparent;">
                             <svg class="svg-fill">
                               <use href="assets/svg/icon-sprite.svg#rate"> </use>
                             </svg>
@@ -143,7 +143,7 @@ include('partial/loader.php');
                           </div>
                         </div>
                         <div>
-                          <h4>5700</h4><span class="f-light">Purchase rate</span>
+                          <h4>2,000</h4><span class="f-light">Ventas</span>
                         </div>
                       </div>
                       <div class="font-success f-w-500"><i class="icon-arrow-up icon-rotate me-1"></i><span>+70%</span></div>
@@ -156,10 +156,10 @@ include('partial/loader.php');
           <div class="col-xxl-auto col-xl-12 col-sm-6 box-col-6">
             <div class="row">
               <div class="col-xxl-12 col-xl-6 box-col-12">
-                <div class="card widget-1 widget-with-chart">
+                <div class="card widget-1 widget-with-chart" style="background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%); border-left: 4px solid #3b82f6; border-radius: 12px; box-shadow: inset 0 1px 3px rgba(255,255,255,0.8), 0 2px 8px rgba(0,0,0,0.03); transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); position: relative; overflow: hidden; margin-bottom: 15px;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='inset 0 1px 3px rgba(255,255,255,0.8), 0 8px 20px rgba(0,0,0,0.08)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='inset 0 1px 3px rgba(255,255,255,0.8), 0 2px 8px rgba(0,0,0,0.03)';">
                   <div class="card-body">
                     <div>
-                      <h4 class="mb-1">1,80k</h4><span class="f-light">Orders</span>
+                      <h4 class="mb-1">1,80k</h4><span class="f-light">Pedidos</span>
                     </div>
                     <div class="order-chart">
                       <div id="orderchart"></div>
@@ -168,10 +168,10 @@ include('partial/loader.php');
                 </div>
               </div>
               <div class="col-xxl-12 col-xl-6 box-col-12">
-                <div class="card widget-1 widget-with-chart">
+                <div class="card widget-1 widget-with-chart" style="background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%); border-left: 4px solid #3b82f6; border-radius: 12px; box-shadow: inset 0 1px 3px rgba(255,255,255,0.8), 0 2px 8px rgba(0,0,0,0.03); transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); position: relative; overflow: hidden; margin-bottom: 15px;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='inset 0 1px 3px rgba(255,255,255,0.8), 0 8px 20px rgba(0,0,0,0.08)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='inset 0 1px 3px rgba(255,255,255,0.8), 0 2px 8px rgba(0,0,0,0.03)';">
                   <div class="card-body">
                     <div>
-                      <h4 class="mb-1">6,90k</h4><span class="f-light">Profit</span>
+                      <h4 class="mb-1">6,90k</h4><span class="f-light">Ganancias</span>
                     </div>
                     <div class="profit-chart">
                       <div id="profitchart"></div>
@@ -182,9 +182,9 @@ include('partial/loader.php');
             </div>
           </div>
           <div class="col-xxl-8 col-lg-12 box-col-12">
-            <div class="card">
+            <div class="card" style="background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.03); transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.05)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 1px 3px rgba(0,0,0,0.03)';">
               <div class="card-header card-no-border">
-                <h5>Overall balance</h5>
+                <h5>Balance General</h5>
               </div>
               <div class="card-body pt-0">
                 <div class="row m-0 overall-card">
@@ -194,8 +194,8 @@ include('partial/loader.php');
                         <div class="col-xl-12">
                           <div class="card-body p-0">
                             <ul class="balance-data">
-                              <li><span class="circle bg-warning"> </span><span class="f-light ms-1">Earning</span></li>
-                              <li><span class="circle bg-primary"> </span><span class="f-light ms-1">Expense</span></li>
+                              <li><span class="circle bg-warning"> </span><span class="f-light ms-1">Ingresos</span></li>
+                              <li><span class="circle bg-primary"> </span><span class="f-light ms-1">Gastos</span></li>
                             </ul>
                             <div class="current-sale-container">
                               <div id="chart-currently"></div>
@@ -214,13 +214,13 @@ include('partial/loader.php');
                               <use href="assets/svg/icon-sprite.svg#income"></use>
                             </svg>
                           </div>
-                          <div> <span class="f-light">Income</span>
+                          <div> <span class="f-light">Ingresos</span>
                             <h6 class="mt-1 mb-0">$22,678</h6>
                           </div>
                           <div class="ms-auto text-end">
                             <div class="dropdown icon-dropdown">
                               <button class="btn dropdown-toggle" id="incomedropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="icon-more-alt"></i></button>
-                              <div class="dropdown-menu dropdown-menu-end" aria-labelledby="incomedropdown"><a class="dropdown-item" href="#">Today</a><a class="dropdown-item" href="#">Tomorrow</a><a class="dropdown-item" href="#">Yesterday </a></div>
+                              <div class="dropdown-menu dropdown-menu-end" aria-labelledby="incomedropdown"><a class="dropdown-item" href="#">Hoy</a><a class="dropdown-item" href="#">Mañana</a><a class="dropdown-item" href="#">Ayer </a></div>
                             </div><span class="font-success">+$456</span>
                           </div>
                         </div>
@@ -232,13 +232,13 @@ include('partial/loader.php');
                               <use href="assets/svg/icon-sprite.svg#expense"></use>
                             </svg>
                           </div>
-                          <div> <span class="f-light">Expense</span>
+                          <div> <span class="f-light">Gastos</span>
                             <h6 class="mt-1 mb-0">$12,057</h6>
                           </div>
                           <div class="ms-auto text-end">
                             <div class="dropdown icon-dropdown">
                               <button class="btn dropdown-toggle" id="expensedropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="icon-more-alt"></i></button>
-                              <div class="dropdown-menu dropdown-menu-end" aria-labelledby="expensedropdown"><a class="dropdown-item" href="#">Today</a><a class="dropdown-item" href="#">Tomorrow</a><a class="dropdown-item" href="#">Yesterday </a></div>
+                              <div class="dropdown-menu dropdown-menu-end" aria-labelledby="expensedropdown"><a class="dropdown-item" href="#">Hoy</a><a class="dropdown-item" href="#">Mañana</a><a class="dropdown-item" href="#">Ayer </a></div>
                             </div><span class="font-danger">+$256</span>
                           </div>
                         </div>
@@ -250,13 +250,13 @@ include('partial/loader.php');
                               <use href="assets/svg/icon-sprite.svg#doller-return"></use>
                             </svg>
                           </div>
-                          <div> <span class="f-light">Cashback</span>
+                          <div> <span class="f-light">Reembolso</span>
                             <h6 class="mt-1 mb-0">8,475</h6>
                           </div>
                           <div class="ms-auto text-end">
                             <div class="dropdown icon-dropdown">
                               <button class="btn dropdown-toggle" id="cashbackdropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="icon-more-alt"></i></button>
-                              <div class="dropdown-menu dropdown-menu-end" aria-labelledby="cashbackdropdown"><a class="dropdown-item" href="#">Today</a><a class="dropdown-item" href="#">Tomorrow</a><a class="dropdown-item" href="#">Yesterday </a></div>
+                              <div class="dropdown-menu dropdown-menu-end" aria-labelledby="cashbackdropdown"><a class="dropdown-item" href="#">Hoy</a><a class="dropdown-item" href="#">Mañana</a><a class="dropdown-item" href="#">Ayer </a></div>
                             </div>
                           </div>
                         </div>
@@ -268,14 +268,14 @@ include('partial/loader.php');
             </div>
           </div>
           <div class="col-xxl-4 col-xl-7 col-md-6 col-sm-5 box-col-6">
-            <div class="card height-equal">
+            <div class="card height-equal" style="background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.03); transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.05)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 1px 3px rgba(0,0,0,0.03)';">
               <div class="card-header card-no-border">
                 <div class="header-top">
-                  <h5>Recent Orders</h5>
+                  <h5>Órdenes Recientes</h5>
                   <div class="card-header-right-icon">
                     <div class="dropdown icon-dropdown">
                       <button class="btn dropdown-toggle" id="recentdropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="icon-more-alt"></i></button>
-                      <div class="dropdown-menu dropdown-menu-end" aria-labelledby="recentdropdown"><a class="dropdown-item" href="#">Weekly</a><a class="dropdown-item" href="#">Monthly</a><a class="dropdown-item" href="#">Yearly</a></div>
+                      <div class="dropdown-menu dropdown-menu-end" aria-labelledby="recentdropdown"><a class="dropdown-item" href="#">Semanal</a><a class="dropdown-item" href="#">Mensual</a><a class="dropdown-item" href="#">Anual</a></div>
                     </div>
                   </div>
                 </div>
@@ -290,13 +290,13 @@ include('partial/loader.php');
                   <div class="col-xl-6">
                     <ul class="order-content">
                       <li> <span class="recent-circle bg-primary"> </span>
-                        <div> <span class="f-light f-w-500">Cancelled </span>
-                          <h4 class="mt-1 mb-0">2,302<span class="f-light f-14 f-w-400 ms-1">(Last 6 Month) </span></h4>
+                        <div> <span class="f-light f-w-500">Cancelados </span>
+                          <h4 class="mt-1 mb-0">2,302<span class="f-light f-14 f-w-400 ms-1">(Últimos 6 meses) </span></h4>
                         </div>
                       </li>
                       <li> <span class="recent-circle bg-info"></span>
-                        <div> <span class="f-light f-w-500">Delivered</span>
-                          <h4 class="mt-1 mb-0">9,302<span class="f-light f-14 f-w-400 ms-1">(Last 6 Month) </span></h4>
+                        <div> <span class="f-light f-w-500">Entregados</span>
+                          <h4 class="mt-1 mb-0">9,302<span class="f-light f-14 f-w-400 ms-1">(Últimos 6 meses) </span></h4>
                         </div>
                       </li>
                     </ul>
@@ -306,14 +306,14 @@ include('partial/loader.php');
             </div>
           </div>
           <div class="col-xxl-4 col-xl-5 col-md-6 col-sm-7 notification box-col-6">
-            <div class="card height-equal">
+            <div class="card height-equal" style="background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.03); transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.05)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 1px 3px rgba(0,0,0,0.03)';">
               <div class="card-header card-no-border">
                 <div class="header-top">
-                  <h5 class="m-0">Activity</h5>
+                  <h5 class="m-0">Actividad</h5>
                   <div class="card-header-right-icon">
                     <div class="dropdown">
-                      <button class="btn dropdown-toggle" id="dropdownMenuButton" type="button" data-bs-toggle="dropdown" aria-expanded="false">Today</button>
-                      <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton"><a class="dropdown-item" href="#">Today</a><a class="dropdown-item" href="#">Tomorrow</a><a class="dropdown-item" href="#">Yesterday </a></div>
+                      <button class="btn dropdown-toggle" id="dropdownMenuButton" type="button" data-bs-toggle="dropdown" aria-expanded="false">Hoy</button>
+                      <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton"><a class="dropdown-item" href="#">Hoy</a><a class="dropdown-item" href="#">Mañana</a><a class="dropdown-item" href="#">Ayer </a></div>
                     </div>
                   </div>
                 </div>
@@ -323,25 +323,25 @@ include('partial/loader.php');
                   <li class="d-flex">
                     <div class="activity-dot-primary"></div>
                     <div class="w-100 ms-3">
-                      <p class="d-flex justify-content-between mb-2"><span class="date-content light-background">8th March, 2022 </span><span>1 day ago</span></p>
-                      <h6>Updated Product<span class="dot-notification"></span></h6>
-                      <p class="f-light">Quisque a consequat ante sit amet magna...</p>
+                      <p class="d-flex justify-content-between mb-2"><span class="date-content light-background">8 de Marzo, 2022 </span><span>Hace 1 día</span></p>
+                      <h6>Producto Actualizado<span class="dot-notification"></span></h6>
+                      <p class="f-light">Se ha actualizado la información del producto...</p>
                     </div>
                   </li>
                   <li class="d-flex">
                     <div class="activity-dot-warning"></div>
                     <div class="w-100 ms-3">
-                      <p class="d-flex justify-content-between mb-2"><span class="date-content light-background">15th Oct, 2022 </span><span>Today</span></p>
-                      <h6>Tello just like your product<span class="dot-notification"></span></h6>
-                      <p>Quisque a consequat ante sit amet magna... </p>
+                      <p class="d-flex justify-content-between mb-2"><span class="date-content light-background">15th Oct, 2022 </span><span>Hoy</span></p>
+                      <h6>Mensaje sobre tu producto<span class="dot-notification"></span></h6>
+                      <p>Se ha realizado una actualización en el sistema... </p>
                     </div>
                   </li>
                   <li class="d-flex">
                     <div class="activity-dot-secondary"></div>
                     <div class="w-100 ms-3">
                       <p class="d-flex justify-content-between mb-2"><span class="date-content light-background">20th Sep, 2022 </span><span>12:00 PM</span></p>
-                      <h6>Tello just like your product<span class="dot-notification"></span></h6>
-                      <p>Quisque a consequat ante sit amet magna... </p>
+                      <h6>Mensaje sobre tu producto<span class="dot-notification"></span></h6>
+                      <p>Se ha realizado una actualización en el sistema... </p>
                     </div>
                   </li>
                 </ul>
@@ -350,14 +350,14 @@ include('partial/loader.php');
           </div>
           <div class="col-xxl-4 col-md-6 appointment-sec box-col-6">
             <div class="appointment">
-              <div class="card">
+              <div class="card" style="background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.03); transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.05)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 1px 3px rgba(0,0,0,0.03)';">
                 <div class="card-header card-no-border">
                   <div class="header-top">
-                    <h5 class="m-0">Recent Sales</h5>
+                    <h5 class="m-0">Ventas Recientes</h5>
                     <div class="card-header-right-icon">
                       <div class="dropdown">
-                        <button class="btn dropdown-toggle" id="recentButton" type="button" data-bs-toggle="dropdown" aria-expanded="false">Today</button>
-                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="recentButton"><a class="dropdown-item" href="#">Today</a><a class="dropdown-item" href="#">Tomorrow</a><a class="dropdown-item" href="#">Yesterday</a></div>
+                        <button class="btn dropdown-toggle" id="recentButton" type="button" data-bs-toggle="dropdown" aria-expanded="false">Hoy</button>
+                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="recentButton"><a class="dropdown-item" href="#">Hoy</a><a class="dropdown-item" href="#">Mañana</a><a class="dropdown-item" href="#">Ayer</a></div>
                       </div>
                     </div>
                   </div>
@@ -368,35 +368,35 @@ include('partial/loader.php');
                       <tbody>
                         <tr>
                           <td><img class="img-fluid img-40 rounded-circle" src="assets/images/dashboard/user/1.jpg" alt="user"></td>
-                          <td class="img-content-box"><a class="d-block f-w-500" href="user-profile.html">Jane Cooper</a><span class="f-light">10 minutes ago</span></td>
+                          <td class="img-content-box"><a class="d-block f-w-500" href="user-profile.html">Jane Cooper</a><span class="f-light">Hace 10 minutos</span></td>
                           <td class="text-end">
                             <p class="m-0 font-success">$200.00</p>
                           </td>
                         </tr>
                         <tr>
                           <td><img class="img-fluid img-40 rounded-circle" src="assets/images/dashboard/user/2.jpg" alt="user"></td>
-                          <td class="img-content-box"><a class="d-block f-w-500" href="user-profile.html">Brooklyn Simmons</a><span class="f-light">19 minutes ago</span></td>
+                          <td class="img-content-box"><a class="d-block f-w-500" href="user-profile.html">Brooklyn Simmons</a><span class="f-light">Hace 19 minutos</span></td>
                           <td class="text-end">
                             <p class="m-0 font-success">$970.00</p>
                           </td>
                         </tr>
                         <tr>
                           <td><img class="img-fluid img-40 rounded-circle" src="assets/images/dashboard/user/3.jpg" alt="user"></td>
-                          <td class="img-content-box"><a class="d-block f-w-500" href="user-profile.html">Leslie Alexander</a><span class="f-light">2 hours ago</span></td>
+                          <td class="img-content-box"><a class="d-block f-w-500" href="user-profile.html">Leslie Alexander</a><span class="f-light">Hace 2 horas</span></td>
                           <td class="text-end">
                             <p class="m-0 font-success">$300.00</p>
                           </td>
                         </tr>
                         <tr>
                           <td><img class="img-fluid img-40 rounded-circle" src="assets/images/dashboard/user/4.jpg" alt="user"></td>
-                          <td class="img-content-box"><a class="d-block f-w-500" href="user-profile.html">Travis Wright</a><span class="f-light">8 hours ago</span></td>
+                          <td class="img-content-box"><a class="d-block f-w-500" href="user-profile.html">Travis Wright</a><span class="f-light">Hace 8 horas</span></td>
                           <td class="text-end">
                             <p class="m-0 font-success">$450.00</p>
                           </td>
                         </tr>
                         <tr>
                           <td><img class="img-fluid img-40 rounded-circle" src="assets/images/dashboard/user/5.jpg" alt="user"></td>
-                          <td class="img-content-box"><a class="d-block f-w-500" href="user-profile.html">Mark Green</a><span class="f-light">1 day ago</span></td>
+                          <td class="img-content-box"><a class="d-block f-w-500" href="user-profile.html">Mark Green</a><span class="f-light">Hace 1 día</span></td>
                           <td class="text-end">
                             <p class="m-0 font-success">$768.00</p>
                           </td>
@@ -409,14 +409,14 @@ include('partial/loader.php');
             </div>
           </div>
           <div class="col-xxl-4 col-md-6 box-col-6">
-            <div class="card">
+            <div class="card" style="background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.03); transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.05)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 1px 3px rgba(0,0,0,0.03)';">
               <div class="card-header card-no-border">
                 <div class="header-top">
-                  <h5 class="m-0">Timeline</h5>
+                  <h5 class="m-0">Cronologia</h5>
                   <div class="card-header-right-icon">
                     <div class="dropdown">
-                      <button class="btn dropdown-toggle" id="dropdownschedules" type="button" data-bs-toggle="dropdown" aria-expanded="false">Today</button>
-                      <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownschedules"><a class="dropdown-item" href="#">Today</a><a class="dropdown-item" href="#">Tomorrow</a><a class="dropdown-item" href="#">Yesterday</a></div>
+                      <button class="btn dropdown-toggle" id="dropdownschedules" type="button" data-bs-toggle="dropdown" aria-expanded="false">Hoy</button>
+                      <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownschedules"><a class="dropdown-item" href="#">Hoy</a><a class="dropdown-item" href="#">Mañana</a><a class="dropdown-item" href="#">Ayer</a></div>
                     </div>
                   </div>
                 </div>
@@ -424,27 +424,15 @@ include('partial/loader.php');
               <div class="card-body pt-0">
                 <div class="schedule-container">
                   <div id="schedulechart"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-xxl-3 col-md-6 box-col-6 col-ed-none wow zoomIn">
-            <div class="card purchase-card"><img class="img-fluid" src="assets/images/dashboard/purchase.png" alt="vector mens with leptop">
-              <div class="card-body pt-3">
-                <h6 class="mb-3">Buy <a href="#">Pro Account </a>to Explore Primium Features</h6><a class="purchase-btn btn btn-primary btn-hover-effect f-w-500" href="https://1.envato.market/3GVzd" target="_blank">Purchase Now</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-xxl-4 col-md-6 box-col-6 col-ed-6">
             <div class="row">
               <div class="col-xl-12">
-                <div class="card">
+                <div class="card" style="background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.03); transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.05)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 1px 3px rgba(0,0,0,0.03)';">
                   <div class="card-header card-no-border">
                     <div class="header-top">
-                      <h5>Total Users</h5>
+                      <h5>Usuarios Totales</h5>
                       <div class="dropdown icon-dropdown">
                         <button class="btn dropdown-toggle" id="userdropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="icon-more-alt"></i></button>
-                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="userdropdown"><a class="dropdown-item" href="#">Weekly</a><a class="dropdown-item" href="#">Monthly</a><a class="dropdown-item" href="#">Yearly</a></div>
+                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="userdropdown"><a class="dropdown-item" href="#">Semanal</a><a class="dropdown-item" href="#">Mensual</a><a class="dropdown-item" href="#">Anual</a></div>
                       </div>
                     </div>
                   </div>
@@ -474,58 +462,16 @@ include('partial/loader.php');
                 <div class="card growth-wrap">
                   <div class="card-header card-no-border">
                     <div class="header-top">
-                      <h5>Followers Growth</h5>
+                      <h5>Seguidores totales</h5>
                       <div class="dropdown icon-dropdown">
                         <button class="btn dropdown-toggle" id="growthdropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="icon-more-alt"></i></button>
-                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="growthdropdown"><a class="dropdown-item" href="#">Weekly</a><a class="dropdown-item" href="#">Monthly</a><a class="dropdown-item" href="#">Yearly</a></div>
+                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="growthdropdown"><a class="dropdown-item" href="#">Semanal</a><a class="dropdown-item" href="#">Mensual</a><a class="dropdown-item" href="#">Anual</a></div>
                       </div>
                     </div>
                   </div>
                   <div class="card-body pt-0">
                     <div class="growth-wrapper">
                       <div id="growthchart"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-xxl-5 col-lg-8 col-md-11 box-col-8 col-ed-6">
-            <div class="card papernote-wrap">
-              <div class="card-header card-no-border">
-                <div class="header-top">
-                  <h5>PaperNote</h5><a class="f-light d-flex align-items-center" href="#">View project <i class="f-w-700 icon-arrow-top-right"></i></a>
-                </div>
-              </div>
-              <div class="card-body pt-0"> <img class="banner-img img-fluid" src="assets/images/dashboard/papernote.jpg" alt="multicolor background">
-                <div class="note-content mt-sm-4 mt-2">
-                  <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-                  <div class="note-labels">
-                    <ul>
-                      <li> <span class="badge badge-light-primary">SAAS</span></li>
-                      <li> <span class="badge badge-light-success">E-Commerce</span></li>
-                      <li> <span class="badge badge-light-warning">Crypto</span></li>
-                      <li> <span class="badge badge-light-info">Project</span></li>
-                      <li> <span class="badge badge-light-secondary">NFT</span></li>
-                      <li> <span class="badge badge-light-light">+9</span></li>
-                    </ul>
-                    <div class="last-label"> <span class="badge badge-light-success">Inprogress</span></div>
-                  </div>
-                  <div class="mt-sm-4 mt-2 user-details">
-                    <div class="customers">
-                      <ul>
-                        <li class="d-inline-block"><img class="img-40 rounded-circle" src="assets/images/dashboard/user/1.jpg" alt="user"></li>
-                        <li class="d-inline-block"><img class="img-40 rounded-circle" src="assets/images/dashboard/user/6.jpg" alt="user"></li>
-                        <li class="d-inline-block"><img class="img-40 rounded-circle" src="assets/images/dashboard/user/7.jpg" alt="user"></li>
-                        <li class="d-inline-block"><img class="img-40 rounded-circle" src="assets/images/dashboard/user/3.jpg" alt="user"></li>
-                        <li class="d-inline-block"><img class="img-40 rounded-circle" src="assets/images/dashboard/user/8.jpg" alt="user"></li>
-                        <li class="d-inline-block">
-                          <div class="light-card"><span class="f-w-500">+5</span></div>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="d-flex align-items-center">
-                      <h5 class="mb-0 font-primary f-18 me-1">$239,098</h5><span class="f-light f-w-500">(Budget)</span>
                     </div>
                   </div>
                 </div>

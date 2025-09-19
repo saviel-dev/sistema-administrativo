@@ -78,7 +78,17 @@ if ($('#pageWrapper').hasClass('compact-wrapper')) {
     
     var contentwidth = jQuery(window).width();
     if ((contentwidth) > 992) {
-            $('<div class="bg-overlay1"></div>').appendTo($('body'));
+        $('<div class="bg-overlay1"></div>').appendTo($('body'));
+        
+        // Asegurar que el menú se muestre al hacer hover
+        $('.sidebar-links > li').hover(
+            function() {
+                $(this).find('.mega-menu').stop(true, true).fadeIn(200);
+            },
+            function() {
+                $(this).find('.mega-menu').stop(true, true).fadeOut(200);
+            }
+        );
     }
 
     jQuery('.sidebar-title').click(function () {
